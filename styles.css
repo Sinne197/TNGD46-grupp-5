@@ -1,3 +1,42 @@
 body{
     margin: auto;
+    background-color: #030301;
+    color: white;
+}
+
+header{
+    text-align: center;
+}
+
+nav{
+
+}
+
+li{
+    list-style-type: none;
+    display: inline;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+table{
+    width: 400px;
+    margin: auto;
+}
+
+th, td{
+    border: 1px solid #586F7C;;
+}
+
+th{
+    color: #B81414;
+    font-size: 15pt;
+}
+
+h1{
+    text-align: center;
+    color: #7BD4D2;
 }
