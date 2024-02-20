@@ -67,3 +67,12 @@ h1{
 footer{
     grid-area: footer;
 }
+
+.galleri {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+
+}
