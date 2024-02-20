@@ -6,17 +6,29 @@ body{
     font-family: Futura PT, sans-serif;
 }
 
-main{
+.contatiner{
+    display: grid;
+    grid-template-columns: 400px 200px;
+    grid-template-areas:
+    'nav nav' 
+    'header header'
+    'main main'
+    'footer footer';
+    column-gap: 10px;
+}
 
+main{
+    grid-area: main;
 }
 
 header{
-    text-align: center;
-    background-color: #586F7C;
+    grid-area: header;
 }
 
 nav{
-
+    text-align: center;
+    background-color: #586F7C;
+    grid-area: nav;
 }
 
 li{
@@ -27,6 +39,10 @@ li{
 a{
     text-decoration: none;
     color: #B81414;
+}
+
+nav a:hover{
+    text-decoration: underline;
 }
 
 table{
@@ -46,4 +62,8 @@ th{
 h1{
     text-align: center;
     color: #7BD4D2;
+}
+
+footer{
+    grid-area: footer;
 }
