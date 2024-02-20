@@ -4,8 +4,13 @@ body{
     color: white;
 }
 
+main{
+    width: 1000px;
+}
+
 header{
     text-align: center;
+    background-color: #586F7C;
 }
 
 nav{
