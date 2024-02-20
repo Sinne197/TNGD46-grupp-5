@@ -2,14 +2,33 @@ body{
     margin: auto;
     background-color: #030301;
     color: white;
+    max-width: 800px;
+    font-family: Futura PT, sans-serif;
+}
+
+.contatiner{
+    display: grid;
+    grid-template-columns: 400px 200px;
+    grid-template-areas:
+    'nav nav' 
+    'header header'
+    'main main'
+    'footer footer';
+    column-gap: 10px;
+}
+
+main{
+    grid-area: main;
 }
 
 header{
-    text-align: center;
+    grid-area: header;
 }
 
 nav{
-
+    text-align: center;
+    background-color: #586F7C;
+    grid-area: nav;
 }
 
 li{
@@ -19,11 +38,15 @@ li{
 
 a{
     text-decoration: none;
-    color: white;
+    color: #B81414;
+}
+
+nav a:hover{
+    text-decoration: underline;
 }
 
 table{
-    width: 400px;
+    width: 50%;
     margin: auto;
 }
 
@@ -39,4 +62,8 @@ th{
 h1{
     text-align: center;
     color: #7BD4D2;
+}
+
+footer{
+    grid-area: footer;
 }
