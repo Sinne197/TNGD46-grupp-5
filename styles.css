@@ -2,10 +2,11 @@ body{
     margin: auto;
     background-color: #030301;
     color: white;
+    max-width: 800px;
 }
 
 main{
-    width: 1000px;
+
 }
 
 header{
@@ -24,11 +25,11 @@ li{
 
 a{
     text-decoration: none;
-    color: white;
+    color: #B81414;
 }
 
 table{
-    width: 400px;
+    width: 50%;
     margin: auto;
 }
 
