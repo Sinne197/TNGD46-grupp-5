@@ -77,6 +77,7 @@ footer{
     justify-content: space-between;
     align-items: center;
     margin-bottom: 100px;
+    grid-area: main;
     
 }
 
@@ -84,7 +85,7 @@ footer{
 img#filmomslag {
     position: absolute;
     top: 100px;
-    left: 380px;
+    left: 360px;
     z-index: 2;
     
 }
@@ -92,7 +93,7 @@ img#filmomslag {
 .rubrik {
     font-size: 16px;
     position: absolute;
-    top: 250px;
+    top: 270px;
     left: 580px;
     z-index: 2;
   
@@ -102,7 +103,7 @@ img#filmomslag {
     font-size: 10px;
     font-weight: 100;
     position: absolute;
-    top: 310px;
+    top: 330px;
     left: 580px;
     z-index: 2;
     line-height: 5px;
@@ -112,6 +113,7 @@ img#filmomslag {
     font-size: 12px;
     margin-top: 140px;
     margin-bottom:60px;
+    grid-area: main;
  
 }
 
@@ -120,4 +122,12 @@ img#filmomslag {
 font-size: 12px;
 line-height: 5px;
 margin-bottom: 60px;
+grid-area: main;
+}
+
+footer {
+    font-size: 12px;
+    text-align: center;
+    background-color: #586F7C;
+    padding: 3px;
 }
