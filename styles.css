@@ -76,6 +76,7 @@ footer{
     justify-content: center;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 100px;
     
 }
 
@@ -115,8 +116,8 @@ img#filmomslag {
 }
 
 
-
 .information {
 font-size: 12px;
 line-height: 5px;
+margin-bottom: 60px;
 }
