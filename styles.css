@@ -57,11 +57,14 @@ table{
 th, td{
     border: 1px solid #7bd4d2;
     font-family: Futura PT, sans-serif;
+    padding: 7px;
 }
 
 th{
     color: #7bd4d2;
     font-size: 15pt;
+    padding: 6px;
+    border-color:#030301;
 }
 
 h1{
