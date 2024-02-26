@@ -54,7 +54,8 @@ table{
 }
 
 th, td{
-    border: 1px solid #586F7C;;
+    border: 1px solid #586F7C;
+    font-family: Futura PT, sans-serif;
 }
 
 th{
@@ -65,6 +66,38 @@ th{
 h1{
     text-align: left;
     color: white;
+}
+
+fieldset {
+    font-size: 12pt;
+    font-family: Futura PT, sans-serif;
+    border-color: #7bd4d2;
+    border-width: 20px;
+}
+
+legend {
+    font-size: 15pt;
+    font-weight: 600;
+    padding: 10px;
+}
+
+input {
+    width: 200px;
+    background-color:#030301;
+    border-color:#7bd4d2;
+    color: #7bd4d2;
+}
+
+#skicka {
+    background-color: #030301;
+    font-size: larger;
+    font-weight: 800;
+    color: #7bd4d2;
+    border-color: #7bd4d2;
+}
+
+#skicka:hover {
+    color: #B81414;
 }
 
 .galleri {
