@@ -51,15 +51,16 @@ table{
     width: 100%;
     margin: auto;
     text-align: center;
+    padding: 5px;
 }
 
 th, td{
-    border: 1px solid #586F7C;
+    border: 1px solid #7bd4d2;
     font-family: Futura PT, sans-serif;
 }
 
 th{
-    color: #B81414;
+    color: #7bd4d2;
     font-size: 15pt;
 }
 
