@@ -75,6 +75,10 @@ fieldset {
     border-width: 20px;
 }
 
+label{
+    font-weight: 100;
+}
+
 legend {
     font-size: 15pt;
     font-weight: 600;
@@ -85,7 +89,18 @@ input {
     width: 200px;
     background-color:#030301;
     border-color:#7bd4d2;
+    color: white;
+}
+
+select {
+    width: 200px;
+    background-color:#030301;
+    border-color:#7bd4d2;
     color: #7bd4d2;
+}
+
+input:hover, select:hover {
+    border-color: #B81414;
 }
 
 #skicka {
@@ -97,7 +112,7 @@ input {
 }
 
 #skicka:hover {
-    color: #B81414;
+    border-color: #B81414;
 }
 
 .galleri {
