@@ -48,8 +48,9 @@ nav a:hover{
 }
 
 table{
-    width: 50%;
+    width: 100%;
     margin: auto;
+    text-align: center;
 }
 
 th, td{
@@ -62,12 +63,8 @@ th{
 }
 
 h1{
-    text-align: center;
+    text-align: left;
     color: white;
-}
-
-footer{
-    grid-area: footer;
 }
 
 .galleri {
@@ -95,8 +92,7 @@ img#filmomslag {
     position: absolute;
     top: 270px;
     left: 580px;
-    z-index: 2;
-  
+    z-index: 2;  
 }
 
 .underrubrik {
@@ -119,15 +115,20 @@ img#filmomslag {
 
 
 .information {
-font-size: 12px;
-line-height: 5px;
-margin-bottom: 60px;
-grid-area: main;
+    font-size: 12px;
+    line-height: 5px;
+    margin-bottom: 60px;
+    grid-area: main;
 }
 
 footer {
+    grid-area: footer;
     font-size: 12px;
     text-align: center;
     background-color: #586F7C;
     padding: 3px;
+    position: fixed;
+    bottom: 0;
+    max-width: 800px;
+    width: 100%;
 }
