@@ -84,8 +84,11 @@ th{
 h1{
     text-align: left;
     color: white;
-}
+    font-family: "futura-pt", sans-serif;
+    font-weight: 700;
+    font-style: normal;
 
+}
 fieldset {
     font-size: 12pt;
     font-family: Futura PT, sans-serif;
