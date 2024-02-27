@@ -49,26 +49,75 @@ nav a:hover{
 }
 
 table{
-    width: 50%;
+    width: 100%;
     margin: auto;
+    text-align: center;
+    padding: 5px;
 }
 
 th, td{
-    border: 1px solid #586F7C;;
+    border: 1px solid #7bd4d2;
+    font-family: Futura PT, sans-serif;
+    padding: 7px;
 }
 
 th{
-    color: #B81414;
+    color: #7bd4d2;
     font-size: 15pt;
+    padding: 6px;
+    border-color:#030301;
 }
 
 h1{
-    text-align: center;
+    text-align: left;
     color: white;
 }
 
-footer{
-    grid-area: footer;
+fieldset {
+    font-size: 12pt;
+    font-family: Futura PT, sans-serif;
+    border-color: #7bd4d2;
+    border-width: 20px;
+}
+
+label{
+    font-weight: 100;
+}
+
+legend {
+    font-size: 15pt;
+    font-weight: 600;
+    padding: 10px;
+}
+
+input {
+    width: 200px;
+    background-color:#030301;
+    border-color:#7bd4d2;
+    color: white;
+}
+
+select {
+    width: 200px;
+    background-color:#030301;
+    border-color:#7bd4d2;
+    color: #7bd4d2;
+}
+
+input:hover, select:hover {
+    border-color: #B81414;
+}
+
+#skicka {
+    background-color: #030301;
+    font-size: larger;
+    font-weight: 800;
+    color: #7bd4d2;
+    border-color: #7bd4d2;
+}
+
+#skicka:hover {
+    border-color: #B81414;
 }
 
 .galleri {
@@ -112,8 +161,7 @@ img#filmomslag {
     position: absolute;
     top: 270px;
     left: 580px;
-    z-index: 2;
-  
+    z-index: 2;  
 }
 
 .underrubrik {
@@ -137,15 +185,20 @@ img#filmomslag {
 
 
 .information {
-font-size: 12px;
-line-height: 5px;
-margin-bottom: 60px;
-grid-area: main;
+    font-size: 12px;
+    line-height: 5px;
+    margin-bottom: 60px;
+    grid-area: main;
 }
 
 footer {
+    grid-area: footer;
     font-size: 12px;
     text-align: center;
     background-color: #586F7C;
     padding: 3px;
+    position: fixed;
+    bottom: 0;
+    max-width: 800px;
+    width: 100%;
 }
