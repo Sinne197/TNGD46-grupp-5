@@ -2,13 +2,40 @@ body{
     margin: auto;
     background-color: #030301;
     color: white;
+    max-width: 800px;
+    font-family: Futura PT, sans-serif;
+}
+
+.contatiner{
+    display: grid;
+    grid-template-columns: 400px 200px;
+    grid-template-areas:
+    'nav nav' 
+    'header header'
+    'main main'
+    'footer footer';
+    column-gap: 10px;
+}
+
+main{
+    grid-area: main;
 }
 
 header{
-    text-align: center;
+    grid-area: header;
+}
+
+.logotyp {
+    position: absolute;
+    margin-left: 8px;
+    margin-top: 2px;
 }
 
 nav{
+    text-align: left;
+    background-color: #586F7C;
+    padding: 2px;
+    grid-area: nav;
 
 }
 
@@ -19,24 +46,172 @@ li{
 
 a{
     text-decoration: none;
-    color: white;
+    color:white;
+    padding: 1px;
+    margin-left: 30px;
+    font-size: 14px;
+}
+
+nav a:hover{
+
+   border-bottom-width: 4px;
+   border-bottom-style: solid;
+   padding-bottom: 15px;
+   border-color: #919ca3;
+
 }
 
 table{
-    width: 400px;
+    width: 100%;
     margin: auto;
+    text-align: center;
+    padding: 5px;
 }
 
 th, td{
-    border: 1px solid #586F7C;;
+    border: 1px solid #7bd4d2;
+    font-family: Futura PT, sans-serif;
+    padding: 7px;
 }
 
 th{
-    color: #B81414;
+    color: #7bd4d2;
     font-size: 15pt;
+    padding: 6px;
+    border-color:#030301;
 }
 
 h1{
+    text-align: left;
+    color: white;
+}
+
+fieldset {
+    font-size: 12pt;
+    font-family: Futura PT, sans-serif;
+    border-color: #7bd4d2;
+    border-width: 20px;
+}
+
+label{
+    font-weight: 100;
+}
+
+legend {
+    font-size: 15pt;
+    font-weight: 600;
+    padding: 10px;
+}
+
+input {
+    width: 200px;
+    background-color:#030301;
+    border-color:#7bd4d2;
+    color: white;
+}
+
+select {
+    width: 200px;
+    background-color:#030301;
+    border-color:#7bd4d2;
+    color: #7bd4d2;
+}
+
+input:hover, select:hover {
+    border-color: #B81414;
+}
+
+#skicka {
+    background-color: #030301;
+    font-size: larger;
+    font-weight: 800;
+    color: #7bd4d2;
+    border-color: #7bd4d2;
+}
+
+#skicka:hover {
+    border-color: #B81414;
+}
+
+.galleri {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+    grid-area: main;
+    
+}
+
+
+img#filmomslag {
+    position: absolute;
+    top: 100px;
+    left: 360px;
+    z-index: 2;
+    
+}
+
+.biljettknapp {
+    position: absolute;
+    left: 780px;
+    top: 320px;
+    font-size: 16px;
+    padding: 10px;
+    background-color:#B81414;
+    width: 150px;
     text-align: center;
-    color: #7BD4D2;
+}
+
+.biljettknapp:hover {
+    background-color:#ed2727 ;
+    
+}
+
+.rubrik {
+    font-size: 16px;
+    position: absolute;
+    top: 270px;
+    left: 580px;
+    z-index: 2;  
+}
+
+.underrubrik {
+    font-size: 10px;
+    font-weight: 100;
+    position: absolute;
+    top: 330px;
+    left: 580px;
+    z-index: 2;
+    line-height: 5px;
+    
+}
+
+.handling {
+    font-size: 12px;
+    margin-top: 140px;
+    margin-bottom:60px;
+    
+ 
+}
+
+
+.information {
+    font-size: 12px;
+    line-height: 5px;
+    margin-bottom: 60px;
+    grid-area: main;
+}
+
+footer {
+    grid-area: footer;
+    font-size: 12px;
+    text-align: center;
+    background-color: #586F7C;
+    padding: 3px;
+    position: fixed;
+    bottom: 0;
+    max-width: 800px;
+    width: 100%;
 }
