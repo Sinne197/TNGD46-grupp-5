@@ -44,7 +44,8 @@ a{
 }
 
 nav a:hover{
-    text-decoration: underline;
+   text-decoration: underline;
+   
 }
 
 table{
@@ -90,6 +91,22 @@ img#filmomslag {
     
 }
 
+.biljettknapp {
+    position: absolute;
+    left: 780px;
+    top: 320px;
+    font-size: 16px;
+    padding: 10px;
+    background-color:#B81414;
+    width: 150px;
+    text-align: center;
+}
+
+.biljettknapp:hover {
+    background-color:#ed2727 ;
+    
+}
+
 .rubrik {
     font-size: 16px;
     position: absolute;
@@ -107,13 +124,14 @@ img#filmomslag {
     left: 580px;
     z-index: 2;
     line-height: 5px;
+    
 }
 
 .handling {
     font-size: 12px;
     margin-top: 140px;
     margin-bottom:60px;
-    grid-area: main;
+    
  
 }
 
