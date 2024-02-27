@@ -3,40 +3,53 @@
   <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="styles.css">
+<<<<<<< HEAD
     <link rel="stylesheet" href="https://use.typekit.net/vzg0mgk.css">
+=======
+    <link rel="stylesheet" href="https://use.typekit.net/gvu5rqn.css">
+>>>>>>> 86439aab1a21d17d553de3a93e47df383026b895
     <title>Formulär</title>
   </head>
   <body>
     <header>
+      <div class="logotyp">
+        <img src="logga_norcopia.jpg" width="50px">
+      </div>
         <nav>
             <ul>
-                <li><a href="index.html">Hem</a></li>
-                <li><a href="tabell.html">Tabell</a></li>
-                <li><a href="recension.html">Rescension</a></li>
-                <li><a href="survey.html">Formulär</a></li>
+                <li><a href="index.html">Filmer</a></li>
+                <li><a href="tabell.html">Tidtabell</a></li>
+                <li><a href="recension.html">Rescensioner</a></li>
+                <li><a href="survey.html">Boka biljetter</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <h1>Formulär</h1>
+        <h1>Biljetter</h1>
         <form>
           <fieldset action="mailto:liuid@student.liu.se" method="post" enctype="text/plain">
            <legend>Kontaktuppgifter:</legend>
-           <label for="fname">Förnamn:</label>
+           <label for="fname">Förnamn:</label><br>
            <input type="text" id="fname" name="fname"><br><br>
-           <label for="lname">Efternamn:</label>
+           <label for="lname">Efternamn:</label><br>
            <input type="text" id="lname" name="lname"><br><br>
-           <label for="email">Email:</label>
+           <label for="email">Email:</label><br>
            <input type="email" id="email" name="email"><br><br>
-           <label for="birthday">Födelsedag:</label>
-           <input type="date" id="birthday" name="birthday"><br><br>
-           <input type="submit" value="Skicka">
+           <label for="biljetter">Antal biljetter:</label><br>
+           <select>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            </select><br><br>
+           <input id="skicka" type="submit" value="Skicka">
           </fieldset>
          </form>
     </main>
     <footer>
-
+      <p>&copy;NORCOPIA PICTURES</p>
     </footer>
-	
   </body>
 </html>
