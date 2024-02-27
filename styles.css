@@ -17,6 +17,7 @@ body{
     column-gap: 10px;
 }
 
+/*styling main*/
 main{
     grid-area: main;
 }
