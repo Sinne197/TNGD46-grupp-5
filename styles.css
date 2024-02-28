@@ -160,12 +160,6 @@ input:hover, select:hover {
     top: 100px;
 }
 
-.femavfem {
-    margin-left: 60px;
-    position: absolute;
-    top: 944px;
-}
-
 .galleri {
     display: flex;
     flex-direction: row;
@@ -236,10 +230,24 @@ img#filmomslag {
     grid-area: main;
 }
 
+/*styling recension*/
 #recension{
     background-image: url(dave-reed-hzGaR9HDWtk-unsplash.png);
+    padding: 2em;
+    border: 4px;
 }
 
+.betyg-container{
+    display: flex;
+    align-items: center;
+
+}
+
+.femavfem {
+    margin-left: 10px;
+}
+
+/*styling footer*/ 
 footer {
     grid-area: footer;
     font-size: 12px;
