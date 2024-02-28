@@ -243,6 +243,18 @@ img#filmomslag {
     width: 60%;
 }
 
+#woods{
+    float: right;
+    -webkit-shape-outside: url(thomas-griesbeck-BS-Uxe8wU5Y-unsplash.png);
+    shape-outside: url(thomas-griesbeck-BS-Uxe8wU5Y-unsplash.png);
+}
+
+#door{
+    float: right;
+    -webkit-shape-outside: url(kiyota-sage-uSBlDa2BfK8-unsplash.png);
+    shape-outside: url(kiyota-sage-uSBlDa2BfK8-unsplash)
+}
+
 .betyg-container{
     display: flex;
     align-items: center;
