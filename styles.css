@@ -221,16 +221,18 @@ img#filmomslag {
 }
 
 .handling {
-    font-size: 12px;
+    font-size: 14px;
     margin-top: 140px;
     margin-bottom:60px;
+    line-height: 18px;
 }
 
 
 .information {
-    font-size: 12px;
+    font-size: 14px;
     line-height: 5px;
     margin-bottom: 60px;
+    line-height: 16px;
     grid-area: main;
 }
 
