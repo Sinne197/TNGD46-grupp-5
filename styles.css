@@ -70,6 +70,7 @@ nav a:hover{
 
 }
 
+/*styling tabell*/ 
 table{
     width: 100%;
     margin: auto;
@@ -102,6 +103,7 @@ font-size: 18px;
 font-weight: 100;
 }
 
+/*styling biljetter*/ 
 fieldset {
     font-size: 12pt;
     font-family: Futura PT, sans-serif;
