@@ -240,7 +240,15 @@ img#filmomslag {
 .recension {
     font-size: 14px;
     line-height: 18px;
-    width: 60%;
+    width: auto;
+}
+
+#recension-rubrik{
+    font-size: 28pt;
+    color: #B81414;
+    font-family: "futura-pt", sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
 #woods{
