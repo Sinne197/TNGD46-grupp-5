@@ -1,3 +1,5 @@
+
+/*styling för alla sidor*/
 body{
     margin: auto;
     background-color: #030301;
@@ -147,13 +149,6 @@ input:hover, select:hover {
     border-color: #B81414;
 }
 
-
-.recension {
-    font-size: 14px;
-    line-height: 18px;
-    width: 60%;
-}
-
 .omslagrecension {
     position: absolute;
     left: 900px;
@@ -231,10 +226,17 @@ img#filmomslag {
 }
 
 /*styling recension*/
-#recension{
+#recension-bakgrund{
     background-image: url(dave-reed-hzGaR9HDWtk-unsplash.png);
     padding: 2em;
     border: 4px;
+    size-adjust: auto;
+}
+
+.recension {
+    font-size: 14px;
+    line-height: 18px;
+    width: 60%;
 }
 
 .betyg-container{
