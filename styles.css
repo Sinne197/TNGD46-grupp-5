@@ -107,8 +107,10 @@ font-weight: 100;
 fieldset {
     font-size: 12pt;
     font-family: Futura PT, sans-serif;
+    border: 5px solid;
     border-color: #7bd4d2;
-    border-width: 20px;
+    width: 80%;
+    margin: auto;
 }
 
 label{
