@@ -17,13 +17,19 @@ body{
     column-gap: 10px;
 }
 
-/*styling main*/
 main{
     grid-area: main;
 }
 
 header{
     grid-area: header;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+
 }
 
 .logotyp {
@@ -85,11 +91,15 @@ th{
 h1{
     text-align: left;
     color: white;
-    font-family: "futura-pt", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-
+    font-weight: 200;
+    
 }
+
+h3 {
+font-size: 18px;
+font-weight: 100;
+}
+
 fieldset {
     font-size: 12pt;
     font-family: Futura PT, sans-serif;
@@ -137,6 +147,25 @@ input:hover, select:hover {
     border-color: #B81414;
 }
 
+
+.recension {
+    font-size: 14px;
+    line-height: 18px;
+    width: 60%;
+}
+
+.omslagrecension {
+    position: absolute;
+    left: 900px;
+    top: 100px;
+}
+
+.femavfem {
+    margin-left: 60px;
+    position: absolute;
+    top: 944px;
+}
+
 .galleri {
     display: flex;
     flex-direction: row;
@@ -145,7 +174,6 @@ input:hover, select:hover {
     align-items: center;
     margin-bottom: 100px;
     grid-area: main;
-    
 }
 
 
@@ -165,7 +193,7 @@ img#filmomslag {
     padding: 10px;
     background-color:#B81414;
     width: 150px;
-    text-align: center;
+    text-align:center;
 }
 
 .biljettknapp:hover {
@@ -176,7 +204,7 @@ img#filmomslag {
 .rubrik {
     font-size: 16px;
     position: absolute;
-    top: 270px;
+    top: 278px;
     left: 580px;
     z-index: 2;  
 }
@@ -196,8 +224,6 @@ img#filmomslag {
     font-size: 12px;
     margin-top: 140px;
     margin-bottom:60px;
-    
- 
 }
 
 
@@ -214,7 +240,6 @@ footer {
     text-align: center;
     background-color: #586F7C;
     padding: 3px;
-    position: fixed;
     bottom: 0;
     max-width: 800px;
     width: 100%;
