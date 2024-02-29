@@ -39,6 +39,7 @@ h1 {
     position: absolute;
     margin-left: 8px;
     margin-top: 2px;
+   width: 50px;
 }
 
 nav{
@@ -74,6 +75,7 @@ nav a:hover{
 
 .banner {
 margin-top: 50px;
+width: 800px;
 
 }
 
@@ -167,6 +169,11 @@ input:hover, select:hover {
 
 
 /*styling filmer*/ 
+
+#bakgrundsbild {
+    width: 100%;
+}
+
 .galleri {
     display: flex;
     flex-direction: row;
@@ -183,6 +190,7 @@ img#filmomslag {
     top: 250px;
     left: 350px;
     z-index: 2;
+    width: 250px;
     
 }
 
@@ -212,7 +220,7 @@ img#filmomslag {
 
 .underrubrik {
     font-size: 12px;
-    font-weight: 100;
+    font-weight: bolder;
     position: absolute;
     top: 545px;
     left: 630px;
