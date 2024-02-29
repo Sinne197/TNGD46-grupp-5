@@ -4,7 +4,6 @@ body{
     margin: auto;
     background-color: #030301;
     color: white;
-    max-width: 800px;
     font-family: Futura PT, sans-serif;
 }
 
@@ -21,6 +20,8 @@ body{
 
 main{
     grid-area: main;
+    max-width: 800px;
+    margin: auto;
 }
 
 header{
@@ -277,6 +278,5 @@ footer {
     background-color: #586F7C;
     padding: 3px;
     bottom: 0;
-    max-width: 800px;
-    width: 100%;
+    max-width: 100%
 }
