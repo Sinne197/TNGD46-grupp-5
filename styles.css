@@ -253,7 +253,7 @@ img#filmomslag {
 }
 
 #recension-rubrik{
-    font-size: 28pt;
+    font-size: 32px;
     color: #B81414;
     font-family: "futura-pt", sans-serif;
     font-weight: 700;
@@ -283,7 +283,9 @@ img#filmomslag {
     margin-left: 10px;
 }
 
-
+#text-betyg{
+    margin-top: 2px;
+}
 
 /*styling footer*/ 
 footer {
