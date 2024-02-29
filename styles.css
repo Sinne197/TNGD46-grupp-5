@@ -76,6 +76,7 @@ table{
     margin: auto;
     text-align: center;
     padding: 5px;
+    margin-bottom: 220px;
 }
 
 th, td{
@@ -115,6 +116,7 @@ fieldset {
     border-color: #7bd4d2;
     width: 80%;
     margin: auto;
+    margin-bottom: 350px;
 }
 
 label{
@@ -281,6 +283,7 @@ footer {
     font-size: 12px;
     text-align: center;
     background-color: #586F7C;
+    position: relative;
     padding: 3px;
     bottom: 0;
     max-width: 100%;
