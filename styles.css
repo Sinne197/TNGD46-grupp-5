@@ -229,8 +229,21 @@ img#filmomslag {
     grid-area: main;
 }
 
+#infobutton{
+    background-color: #B81414;
+    padding: 10px;
+    color: white;
+    margin-bottom: 20px;
+    border: #B81414;
+    font-size: 14px;
+    font-weight: 500;
+}
 
-.information {
+#hiddentext{
+    display: none;
+    margin-top: 10px;
+    padding: 5px;
+    background-color: #586F7C;   
     font-size: 14px;
     line-height: 5px;
     margin-bottom: 60px;
@@ -254,26 +267,31 @@ img#filmomslag {
 
 #recension-rubrik{
     font-size: 32px;
-    color: #B81414;
+    color: #B81414; /*den röda primärfärgen används för att skapa enhetlighet på sidan*/
     font-family: "futura-pt", sans-serif;
     font-weight: 700;
     font-style: normal;
 }
 
+#ingress{
+    font-size: 16px; /*större textstorlek än brödtexten för att markera att detta är ingressen*/
+    font-weight: 600; /*fetare text för att markera att detta är ingressen*/
+}
 #woods{
     float: right;
-    -webkit-shape-outside: circle(500px);
-    shape-outside: circle(500px);
-    margin: 20px;
+    -webkit-shape-outside: circle(500px); /*styling av texten position i förhållande till bilden*/
+    shape-outside: circle(500px);/*styling av texten position i förhållande till bilden*/
+    margin: 20px; /*marginalen runt bilden*/
 }
 
 #door{
-    float: right;
-    -webkit-shape-outside: circle(500px);
+    float: right; /*styling av texten position i förhållande till bilden*/
+    -webkit-shape-outside: circle(500px); /*styling av texten position i förhållande till bilden*/
     shape-outside: circle(500px);
-    margin: 20px;
+    margin: 20px;/*marginalen runt bilden*/
 }
 
+/*styling av betygd-delen i recensionen*/
 .betyg-container{
     display: flex;
     align-items: center;
