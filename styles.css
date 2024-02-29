@@ -11,7 +11,7 @@ body{
     display: grid;
     grid-template-columns: 400px 200px;
     grid-template-areas:
-    'nav nav' 
+    'nav nav' /*nav och header verkar vara samma del i koden vi kanske kan ta bort ena?*/
     'header header'
     'main main'
     'footer footer';
@@ -241,9 +241,9 @@ img#filmomslag {
 /*styling recension*/
 #recension-bakgrund{
     background-image: url(dave-reed-hzGaR9HDWtk-unsplash.png);
-    padding: 2em;
-    border: 4px;
-    size-adjust: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .recension {
@@ -262,14 +262,16 @@ img#filmomslag {
 
 #woods{
     float: right;
-    -webkit-shape-outside:  url(thomas-griesbeck-BS-Uxe8wU5Y-unsplash.png);
-    shape-outside: url(thomas-griesbeck-BS-Uxe8wU5Y-unsplash.png);
+    -webkit-shape-outside: circle(500px);
+    shape-outside: circle(500px);
+    margin: 20px;
 }
 
 #door{
     float: right;
-    -webkit-shape-outside: url(kiyota-sage-uSBlDa2BfK8-unsplash.png);
-    shape-outside: url(kiyota-sage-uSBlDa2BfK8-unsplash)
+    -webkit-shape-outside: circle(500px);
+    shape-outside: circle(500px);
+    margin: 20px;
 }
 
 .betyg-container{
