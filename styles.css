@@ -153,12 +153,8 @@ input:hover, select:hover {
     border-color: #B81414;
 }
 
-.omslagrecension {
-    position: absolute;
-    left: 900px;
-    top: 100px;
-}
 
+/*styling filmer*/ 
 .galleri {
     display: flex;
     flex-direction: row;
