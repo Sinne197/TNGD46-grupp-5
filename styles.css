@@ -75,6 +75,19 @@ nav a:hover{
    padding-bottom: 15px;
    border-color: #919ca3;
 }
+
+@media (max-width: 600px) {
+    nav {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    li {
+      display: block;
+      margin: 10px 0;
+    }
+  }
+  
 /*styling alla sidor slut*/ 
 
 
