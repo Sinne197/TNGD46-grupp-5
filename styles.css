@@ -24,7 +24,7 @@ main{
     margin: auto;
 }
 
-h1 {
+h1 { /*vad är det för skillnad på denna h1 och den längre ned? finns ej klass*/
     font-size: 24px;
     margin-bottom: 20px;
     margin-top: 40px;
@@ -95,11 +95,11 @@ th{
     border-color:#030301;
 }
 
-#rad1 {
+#rad1 { 
     background-color: #B81414;
 }
 
-/*styling allmänt*/ 
+/*styling allmänt*/ /*är detta för samtliga sidor?*/
 
 h1{
     text-align: left;
@@ -313,7 +313,7 @@ img#filmomslag {
     margin: 20px;/*marginalen runt bilden*/
 }
 
-/*styling av betygd-delen i recensionen*/
+/*styling av betyg-delen i recensionen*/
 .betyg-container{
     display: flex;
     align-items: center;
