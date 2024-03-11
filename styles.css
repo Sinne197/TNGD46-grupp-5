@@ -7,7 +7,8 @@ body{
     font-family: Futura PT, sans-serif;
 }
 
-.contatiner{
+
+.container{
     display: grid;
     grid-template-columns: 400px 200px;
     grid-template-areas:
