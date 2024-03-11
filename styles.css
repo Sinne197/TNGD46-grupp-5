@@ -20,18 +20,26 @@ body{
 
 main{
     grid-area: main;
-    width: 90%;
+    width: 70%;
     margin: auto;
 }
 
-h1 { /*vad är det för skillnad på denna h1 och den längre ned? finns ej klass*/
+h1{
     font-size: 24px;
     margin-bottom: 20px;
     margin-top: 40px;
-
+    text-align: left;
+    color: white;
+    font-weight: 200;
 }
 
-/*styling för nav*/ 
+h3 {
+font-size: 18px;
+font-weight: 100;
+}
+
+
+/*styling för nav på*/ 
 
 .logotyp {
     position: absolute;
@@ -67,117 +75,7 @@ nav a:hover{
    padding-bottom: 15px;
    border-color: #919ca3;
 }
-
-/*styling tabell*/ 
-
-.banner {
-margin-top: 50px;
-width: 800px;
-}
-
-table{
-    width: 100%;
-    margin: auto;
-    text-align: center;
-    padding: 30px;
-}
-
-th, td{
-    border: 1px solid #7bd4d2;
-    font-family: Futura PT, sans-serif;
-    padding: 7px;
-}
-
-th{
-    color: #7bd4d2;
-    font-size: 15pt;
-    padding: 6px;
-    border-color:#030301;
-}
-
-#rad1 { 
-    background-color: #B81414;
-}
-
-/*styling allmänt*/ /*är detta för samtliga sidor?*/
-
-h1{
-    text-align: left;
-    color: white;
-    font-weight: 200;
-}
-
-h3 {
-font-size: 18px;
-font-weight: 100;
-}
-
-/*styling biljetter*/ 
-
-form{
-    padding: 30px;
-    width: 60%;
-    margin: auto;
-}
-
-#biljettbild{
-    width: 200px;
-    position: relative; /*För att få bilden och textrutorna i bordern för fieldboxen gjorde jag bilden relative och fieldboxen absolute*/ 
-    margin-left: 55%;
-    margin-top: 80px;
-    margin-bottom: 260px; /*För att få footern längst på sidan*/ 
-}
-
-fieldset {
-    font-size: 12pt;
-    font-family: Futura PT, sans-serif;
-    border: 5px solid;
-    border-color: #7bd4d2;
-    position: absolute;
-    top: 100px; 
-    width: 500px;
-}
-
-label{
-    font-weight: 100;
-}
-
-legend {
-    font-size: 15pt;
-    font-weight: 600;
-    padding: 10px;
-}
-
-input {
-    width: 200px;
-    background-color:#030301;
-    border-color:#7bd4d2;
-    color: white;
-}
-
-select {
-    width: 200px;
-    background-color:#030301;
-    border-color:#7bd4d2;
-    color: white;
-}
-
-input:hover, select:hover {
-    border-color: #B81414;
-}
-
-#skicka {
-    background-color: #030301;
-    font-size: larger;
-    font-weight: 800;
-    color: #7bd4d2;
-    border-color: #7bd4d2;
-}
-
-#skicka:hover {
-    border-color: #B81414;
-}
-/*styling biljetter slut*/ 
+/*styling alla sidor slut*/ 
 
 
 /*styling filmer*/ 
@@ -272,6 +170,107 @@ img#filmomslag {
     line-height: 16px;
     grid-area: main;
 }
+/*styling filmer slut*/ 
+
+/*styling biljetter*/ 
+
+form{
+    padding: 30px;
+    width: 60%;
+    margin: auto;
+}
+
+#biljettbild{
+    width: 200px;
+    position: relative; /*För att få bilden och textrutorna i bordern för fieldboxen gjorde jag bilden relative och fieldboxen absolute*/ 
+    margin-left: 55%;
+    margin-top: 80px;
+    margin-bottom: 260px; /*För att få footern längst på sidan*/ 
+}
+
+fieldset {
+    font-size: 12pt;
+    font-family: Futura PT, sans-serif;
+    border: 5px solid;
+    border-color: #7bd4d2;
+    position: absolute;
+    top: 100px; 
+    width: 500px;
+}
+
+label{
+    font-weight: 100;
+}
+
+legend {
+    font-size: 15pt;
+    font-weight: 600;
+    padding: 10px;
+}
+
+input {
+    width: 200px;
+    background-color:#030301;
+    border-color:#7bd4d2;
+    color: white;
+}
+
+select {
+    width: 200px;
+    background-color:#030301;
+    border-color:#7bd4d2;
+    color: white;
+}
+
+input:hover, select:hover {
+    border-color: #B81414;
+}
+
+#skicka {
+    background-color: #030301;
+    font-size: larger;
+    font-weight: 800;
+    color: #7bd4d2;
+    border-color: #7bd4d2;
+}
+
+#skicka:hover {
+    border-color: #B81414;
+}
+/*styling biljetter slut*/ 
+
+/*styling tabell*/ 
+
+.banner {
+margin-top: 50px;
+width: 800px;
+}
+
+table{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding: 30px;
+}
+
+th, td{
+    border: 1px solid #7bd4d2;
+    font-family: Futura PT, sans-serif;
+    padding: 7px;
+}
+
+th{
+    color: #7bd4d2;
+    font-size: 15pt;
+    padding: 6px;
+    border-color:#030301;
+}
+
+#rad1 { 
+    background-color: #B81414;
+}
+/*styling tabell slut*/ 
+
 
 /*styling recension*/
 #recension-bakgrund{
@@ -326,6 +325,7 @@ img#filmomslag {
 #text-betyg{
     margin-top: 2px;
 }
+/*styling recension slut*/ 
 
 /*styling footer*/ 
 footer {
@@ -338,3 +338,4 @@ footer {
     bottom: 0;
     max-width: 100%;
 }
+/*styling footer slut*/ 
