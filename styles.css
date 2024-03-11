@@ -10,17 +10,17 @@ body{
 
 .container{
     display: grid;
-    grid-template-columns: 400px 200px;
+    grid-template-columns: 1fr;
     grid-template-areas:
-    'nav nav'
-    'main main'
-    'footer footer';
+    'nav'
+    'main'
+    'footer';
     column-gap: 10px;
 }
 
 main{
     grid-area: main;
-    width: 800px;
+    width: 90%;
     margin: auto;
 }
 
@@ -301,15 +301,15 @@ img#filmomslag {
 }
 #woods{
     float: right;
-    -webkit-shape-outside: circle(500px); /*styling av texten position i förhållande till bilden*/
-    shape-outside: circle(500px);/*styling av texten position i förhållande till bilden*/
+    -webkit-shape-outside: circle(50%); /*styling av texten position i förhållande till bilden*/
+    shape-outside: circle(50%);/*styling av texten position i förhållande till bilden*/
     margin: 20px; /*marginalen runt bilden*/
 }
 
 #door{
     float: right; /*styling av texten position i förhållande till bilden*/
-    -webkit-shape-outside: circle(500px); /*styling av texten position i förhållande till bilden*/
-    shape-outside: circle(500px);
+    -webkit-shape-outside: circle(50%); /*styling av texten position i förhållande till bilden*/
+    shape-outside: circle(50%);
     margin: 20px;/*marginalen runt bilden*/
 }
 
