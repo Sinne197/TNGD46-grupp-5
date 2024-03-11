@@ -76,7 +76,7 @@ nav a:hover{
    border-color: #919ca3;
 }
 
-@media (max-width: 600px) {
+@media screen and (max-width: 600px) {
     nav {
       display: flex;
       flex-direction: column;
@@ -86,8 +86,25 @@ nav a:hover{
       display: block;
       margin: 10px 0;
     }
-  }
-  
+    .menu ul {
+        display: none;
+    }
+    
+    .hamburger {
+        font-size: 30px;
+        cursor: pointer;
+    }
+}
+
+  @media (min-width: 601px) {
+    .hamburger {
+        display: none;
+    }
+    .menu {
+        display: block;
+    }
+}
+
 /*styling alla sidor slut*/ 
 
 
