@@ -87,11 +87,13 @@ nav a:hover{
       margin: 10px 0;
     }
     .menu ul {
-        display: none;
+        display: ;
     }
     
     .hamburger {
-        font-size: 30px;
+        background-color: #586F7C;
+        font-size: 20px;
+        color:white;
         cursor: pointer;
     }
 }
