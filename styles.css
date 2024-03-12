@@ -76,6 +76,7 @@ nav a:hover{
    border-color: #919ca3;
 }
 
+/*styling för hamburger-meny som visas för skärmar med max 600px*/
 @media screen and (max-width: 600px) {
     nav {
       display: flex;
@@ -85,16 +86,21 @@ nav a:hover{
     li {
       display: block;
       margin: 10px 0;
+      padding: 5px;
     }
     .menu ul {
-        display: ;
+        display: none;
     }
     
     .hamburger {
         background-color: #586F7C;
+        border: #586F7C;
+        padding: 15px;
+        padding-left: 10%;
         font-size: 20px;
         color:white;
         cursor: pointer;
+        text-align: left;
     }
 }
 
