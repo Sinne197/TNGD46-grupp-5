@@ -265,7 +265,7 @@ input:hover, select:hover {
 }
 
 #skicka {
-    background-color: #030301;
+    background-color: hsl(60, 50%, 1%);
     font-size: larger;
     font-weight: 800;
     color: #7bd4d2;
@@ -275,6 +275,15 @@ input:hover, select:hover {
 #skicka:hover {
     border-color: #B81414;
 }
+
+span{
+    color:#B81414;
+    font-family: Futura PT, sans-serif;
+    font-weight: 900;
+    display: block;
+    margin-top: 5px;
+}
+
 /*styling biljetter slut*/ 
 
 /*styling tabell*/ 
