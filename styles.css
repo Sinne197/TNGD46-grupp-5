@@ -39,7 +39,7 @@ font-weight: 100;
 }
 
 
-/*styling för nav på*/ 
+/*styling för nav*/ 
 
 .logotyp {
     position: absolute;
@@ -112,7 +112,6 @@ nav a:hover{
         display: block;
     }
 }
-
 /*styling alla sidor slut*/ 
 
 
@@ -283,7 +282,6 @@ span{
     display: block;
     margin-top: 5px;
 }
-
 /*styling biljetter slut*/ 
 
 /*styling tabell*/ 
