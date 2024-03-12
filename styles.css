@@ -39,9 +39,10 @@ h3 {
 }
 
 p{
-    font-size: ;
-    
-
+    font-size: 14px;
+    width: auto;
+    line-break: auto;
+    line-height: 20px;
 }
 
 
@@ -353,18 +354,10 @@ th{
     font-size: 16px; /*större textstorlek än brödtexten för att markera att detta är ingressen*/
     font-weight: 600; /*fetare text för att markera att detta är ingressen*/
 }
-#woods{
+#woods,#door{
     float: right;
-    -webkit-shape-outside: circle(50%); /*styling av texten position i förhållande till bilden*/
-    shape-outside: circle(50%);/*styling av texten position i förhållande till bilden*/
-    margin: 20px; /*marginalen runt bilden*/
-}
-
-#door{
-    float: right; /*styling av texten position i förhållande till bilden*/
-    -webkit-shape-outside: circle(50%); /*styling av texten position i förhållande till bilden*/
-    shape-outside: circle(50%);
-    margin: 20px;/*marginalen runt bilden*/
+    shape-outside: circle(60%);/*styling av texten position i förhållande till bilderna*/
+    margin: 2em; /*marginalen runt bilderna*/
 }
 
 /*styling av betyg-delen i recensionen*/
