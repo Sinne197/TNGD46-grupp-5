@@ -131,33 +131,34 @@ nav a:hover{
 .galleri {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    justify-content: space-between;
-    align-items: center;
+    column-gap: 50px;
     margin-bottom: 100px;
+    margin-top: 50px;
     grid-area: main;
+    
 }
 
 
 img#filmomslag {
     position: absolute;
     top: 250px;
-    left: 350px;
     z-index: 2;
-    width: 250px;
+    width: 300px;
+    grid-area: main;
     
 }
 
 .biljettknapp {
     position: absolute;
-    left: 850px;
-    top: 540px;
-    font-size: 16px;
+    left: 790px;
+    top: 615px;
+    font-size: 18px;
     padding: 10px;
     background-color:#B81414;
-    width: 150px;
+    width: 130px;
     font-weight: 700;
     padding-left: 35px;
+    border-radius: 1em;
     
 }
 
@@ -167,10 +168,10 @@ img#filmomslag {
 }
 
 .rubrik {
-    font-size: 20px;
+    font-size: 25px;
     position: absolute;
-    top: 480px;
-    left: 630px;
+    top: 520px;
+    left: 570px;
     z-index: 2;  
 }
 
@@ -178,19 +179,19 @@ img#filmomslag {
     font-size: 12px;
     font-weight: bolder;
     position: absolute;
-    top: 545px;
-    left: 630px;
+    top: 590px;
+    left: 570px;
     z-index: 2;
-    line-height: 5px;
     
 }
 
 .handling {
     font-size: 14px;
-    margin-top: 200px;
+    margin-top: 250px;
     margin-bottom:60px;
     line-height: 18px;
     grid-area: main;
+    max-width: 50%;
 }
 
 #infobutton{
@@ -201,6 +202,7 @@ img#filmomslag {
     border: #B81414;
     font-size: 14px;
     font-weight: 500;
+    border-radius: 1em;
 }
 
 #hiddentext{
@@ -213,6 +215,7 @@ img#filmomslag {
     margin-bottom: 60px;
     line-height: 16px;
     grid-area: main;
+    border-radius: 1em;
 }
 /*styling filmer slut*/ 
 
