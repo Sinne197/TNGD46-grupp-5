@@ -269,6 +269,10 @@ input:hover, select:hover {
 #skicka:hover {
     border-color: #B81414;
 }
+
+fieldset:after{
+    color:#B81414;
+}
 /*styling biljetter slut*/ 
 
 /*styling tabell*/ 

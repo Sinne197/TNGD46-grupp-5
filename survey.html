@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://use.typekit.net/vzg0mgk.css">
+    <script src="biljett.js"></script>
     <title>Formulär</title>
   </head>
   <body>
@@ -29,27 +30,30 @@
     </header>
     <main>
       <img id="biljettbild" src="filmomslag_webb.jpg" alt="filmomslag bunkern"><br>
-        <form>
-          <fieldset action="mailto:liuid@student.liu.se" method="post" enctype="text/plain">
-           <legend>Kontaktuppgifter:</legend>
-           <label for="fnamn">Förnamn:</label><br>
-           <input type="text" name="fnamn"><br><br>
-           <label for="enamn">Efternamn:</label><br>
-           <input type="text" name="enamn"><br><br>
-           <label for="email">Email:</label><br>
-           <input type="text" name="email"><br><br>
-           <label for="biljetter">Antal biljetter:</label><br>
-           <select>
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5</option>
-            <option value="6">6</option>
+      <form action="mailto:liuid@student.liu.se" method="post" enctype="text/plain">
+        <fieldset>
+            <legend>Kontaktuppgifter:</legend>
+            <label for="fnamn">Förnamn:</label><br>
+            <input type="text" id="fnamn" name="fnamn">
+            <span id="fnamn-error"></span><br><br>
+            <label for="enamn">Efternamn:</label><br>
+            <input type="text" id="enamn" name="enamn">
+            <span id="enamn-error"></span><br><br>
+            <label for="email">Email:</label><br>
+            <input type="text" id="email" name="email">
+            <span id="email-error"></span><br><br>
+            <label for="biljetter">Antal biljetter:</label><br>
+            <select>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
             </select><br><br>
-           <input id="skicka" type="submit" value="Skicka">
-          </fieldset>
-         </form>
+            <input type="submit" value="Skicka">
+        </fieldset>
+    </form>
     </main>
     <footer>
       <p>&copy;NORCOPIA PICTURES</p>
