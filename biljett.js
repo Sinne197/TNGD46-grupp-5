@@ -24,7 +24,6 @@ document.addEventListener("DOMContentLoaded", function() {
     function displayErrorMessage(inputElement, message) {
         const errorMessage = document.createElement("span");
         errorMessage.textContent = message;
-        errorMessage.style.color = "red";
         inputElement.insertAdjacentElement("afterend", errorMessage);
     }
 
