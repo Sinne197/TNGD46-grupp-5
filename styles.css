@@ -162,8 +162,8 @@ img#filmomslag {
     
 }
 
-.biljettknapp:hover {
-    background-color:#ed2727 ;
+.biljettknapp:hover, #infobutton:hover {
+    background-color:#ed2727;
     
 }
 
