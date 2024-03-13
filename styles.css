@@ -222,16 +222,17 @@ img#filmomslag {
 /*styling biljetter*/ 
 
 form{
-    padding: 30px;
     margin: auto;
+    padding-top: 50px;
+    padding-bottom: 260px;
 }
 
 #biljettbild{
     width: 210px;
-    display: block;
-    margin-top: 10px;
     border: solid white;
-    margin-bottom: -20px;
+    float: right;
+    margin-top: -287px;
+    margin-left: 240px;
 }
 
 fieldset {
@@ -239,7 +240,7 @@ fieldset {
     font-family: Futura PT, sans-serif;
     border: 5px solid;
     border-color: #7bd4d2;
-    width: fit-content;
+    width: 400px;
     top: 100px; 
     margin: auto;
 }

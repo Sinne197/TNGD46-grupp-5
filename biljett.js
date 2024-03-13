@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function() {
             event.preventDefault();
         }
         if (!isValidEmail(emailInput.value)) {
-            displayErrorMessage(emailInput, "Ogiltig e-postadress");
+            displayErrorMessage(emailInput, "Ogiltig email-adress");
             event.preventDefault();
         }
     });
