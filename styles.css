@@ -301,8 +301,8 @@ span{
 /*styling tabell*/ 
 
 .banner {
-margin-top: 50px;
-width: 800px;
+    width: 100%;
+    margin-top: 30px;
 }
 
 table{
