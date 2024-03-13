@@ -277,7 +277,6 @@ input:hover, select:hover {
 
 #skicka {
     border: 2px solid;
-    background-color: hsl(60, 50%, 1%);
     font-size: larger;
     font-weight: 800;
     color: #7bd4d2;
