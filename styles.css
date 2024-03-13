@@ -223,16 +223,15 @@ img#filmomslag {
 
 form{
     padding: 30px;
-    width: 60%;
     margin: auto;
 }
 
 #biljettbild{
-    width: 200px;
-    position: relative; /*För att få bilden och textrutorna i bordern för fieldboxen gjorde jag bilden relative och fieldboxen absolute*/ 
-    margin-left: 55%;
-    margin-top: 80px;
-    margin-bottom: 260px; /*För att få footern längst på sidan*/ 
+    width: 210px;
+    display: block;
+    margin-top: 10px;
+    border: solid white;
+    margin-bottom: -20px;
 }
 
 fieldset {
@@ -240,9 +239,9 @@ fieldset {
     font-family: Futura PT, sans-serif;
     border: 5px solid;
     border-color: #7bd4d2;
-    position: absolute;
+    width: fit-content;
     top: 100px; 
-    width: 500px;
+    margin: auto;
 }
 
 label{
@@ -256,14 +255,16 @@ legend {
 }
 
 input {
-    width: 200px;
+    border: 2px solid;
+    width: 205px;
     background-color:#030301;
     border-color:#7bd4d2;
     color: white;
 }
 
 select {
-    width: 200px;
+    border: 2px solid;
+    width: 210px;
     background-color:#030301;
     border-color:#7bd4d2;
     color: white;
@@ -274,11 +275,13 @@ input:hover, select:hover {
 }
 
 #skicka {
+    border: 2px solid;
     background-color: hsl(60, 50%, 1%);
     font-size: larger;
     font-weight: 800;
     color: #7bd4d2;
-    border-color: #7bd4d2;
+    border-color:#7bd4d2;
+    width: 213px;
 }
 
 #skicka:hover {
