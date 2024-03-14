@@ -4,7 +4,7 @@ body{
     margin: auto;
     background-color: #030301;
     color: white;
-    font-family: Futura PT, sans-serif;
+    font-family: "futura-pt", sans-serif;
 }
 
 
@@ -103,7 +103,7 @@ nav a:hover{
         background-color: #586F7C;
         border: #586F7C;
         padding: 15px;
-        padding-left: 10%;
+        padding-left: 70px;
         font-size: 20px;
         color:white;
         cursor: pointer;
@@ -131,46 +131,47 @@ nav a:hover{
 .galleri {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    justify-content: space-between;
-    align-items: center;
+    column-gap: 50px;
     margin-bottom: 100px;
+    margin-top: 50px;
     grid-area: main;
+    
 }
 
 
 img#filmomslag {
     position: absolute;
     top: 250px;
-    left: 350px;
     z-index: 2;
-    width: 250px;
+    width: 300px;
+    grid-area: main;
     
 }
 
 .biljettknapp {
     position: absolute;
-    left: 850px;
-    top: 540px;
-    font-size: 16px;
+    left: 790px;
+    top: 615px;
+    font-size: 18px;
     padding: 10px;
     background-color:#B81414;
-    width: 150px;
+    width: 130px;
     font-weight: 700;
     padding-left: 35px;
+    border-radius: 1em;
     
 }
 
-.biljettknapp:hover {
-    background-color:#ed2727 ;
+.biljettknapp:hover, #infobutton:hover {
+    background-color:#ed2727;
     
 }
 
 .rubrik {
-    font-size: 20px;
+    font-size: 25px;
     position: absolute;
-    top: 480px;
-    left: 630px;
+    top: 520px;
+    left: 570px;
     z-index: 2;  
 }
 
@@ -178,19 +179,19 @@ img#filmomslag {
     font-size: 12px;
     font-weight: bolder;
     position: absolute;
-    top: 545px;
-    left: 630px;
+    top: 590px;
+    left: 570px;
     z-index: 2;
-    line-height: 5px;
     
 }
 
 .handling {
     font-size: 14px;
-    margin-top: 200px;
+    margin-top: 250px;
     margin-bottom:60px;
     line-height: 18px;
     grid-area: main;
+    max-width: 50%;
 }
 
 #infobutton{
@@ -201,6 +202,7 @@ img#filmomslag {
     border: #B81414;
     font-size: 14px;
     font-weight: 500;
+    border-radius: 1em;
 }
 
 #hiddentext{
@@ -213,33 +215,56 @@ img#filmomslag {
     margin-bottom: 60px;
     line-height: 16px;
     grid-area: main;
+    border-radius: 1em;
 }
 /*styling filmer slut*/ 
 
 /*styling biljetter*/ 
 
+@media only screen and (max-width: 600px) {
+    form {
+        margin: auto;
+    }
+    
+    form #biljettbild {
+        width: 210px;
+        float: none;
+        display: block;
+        margin-top: 20px;
+        margin-left: 0px;
+        margin-bottom: -20px;
+    }
+    
+    form fieldset {
+        width: 200px;
+        top: 100px; 
+        margin: auto;
+        margin-bottom: -240px;
+    }
+}
+
 form{
-    padding: 30px;
-    width: 60%;
     margin: auto;
+    padding-top: 50px;
+    padding-bottom: 260px;
 }
 
 #biljettbild{
-    width: 200px;
-    position: relative; /*För att få bilden och textrutorna i bordern för fieldboxen gjorde jag bilden relative och fieldboxen absolute*/ 
-    margin-left: 55%;
-    margin-top: 80px;
-    margin-bottom: 260px; /*För att få footern längst på sidan*/ 
+    width: 210px;
+    border: solid white;
+    float: right;
+    margin-top: -287px;
+    margin-left: 240px;
 }
 
 fieldset {
     font-size: 12pt;
-    font-family: Futura PT, sans-serif;
+    font-family: "futura-pt", sans-serif;
     border: 5px solid;
     border-color: #7bd4d2;
-    position: absolute;
+    width: 400px;
     top: 100px; 
-    width: 500px;
+    margin: auto;
 }
 
 label{
@@ -253,14 +278,16 @@ legend {
 }
 
 input {
-    width: 200px;
+    border: 2px solid;
+    width: 205px;
     background-color:#030301;
     border-color:#7bd4d2;
     color: white;
 }
 
 select {
-    width: 200px;
+    border: 2px solid;
+    width: 210px;
     background-color:#030301;
     border-color:#7bd4d2;
     color: white;
@@ -271,11 +298,12 @@ input:hover, select:hover {
 }
 
 #skicka {
-    background-color: hsl(60, 50%, 1%);
+    border: 2px solid;
     font-size: larger;
     font-weight: 800;
     color: #7bd4d2;
-    border-color: #7bd4d2;
+    border-color:#7bd4d2;
+    width: 213px;
 }
 
 #skicka:hover {
@@ -284,7 +312,7 @@ input:hover, select:hover {
 
 span{
     color:#B81414;
-    font-family: Futura PT, sans-serif;
+    font-family: "futura-pt", sans-serif;
     font-weight: 900;
     display: block;
     margin-top: 5px;
@@ -294,8 +322,8 @@ span{
 /*styling tabell*/ 
 
 .banner {
-margin-top: 50px;
-width: 800px;
+    width: 100%;
+    margin-top: 30px;
 }
 
 table{
@@ -307,7 +335,7 @@ table{
 
 th, td{
     border: 1px solid #7bd4d2;
-    font-family: Futura PT, sans-serif;
+    font-family: "futura-pt", sans-serif;
     padding: 7px;
 }
 
