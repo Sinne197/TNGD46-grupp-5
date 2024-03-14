@@ -391,7 +391,7 @@ th{
 /*anpassar bilderna för skärmar med max 600px*/
 @media screen and (max-width: 600px){
     #woods,#door{
-        align-items: center;
+        justify-content: center;
     }
 }
 
