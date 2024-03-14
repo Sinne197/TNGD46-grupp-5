@@ -5,6 +5,7 @@ body{
     background-color: #030301;
     color: white;
     font-family: "futura-pt", sans-serif;
+    overflow: auto;
 }
 
 
