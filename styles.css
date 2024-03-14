@@ -218,6 +218,31 @@ img#filmomslag {
     grid-area: main;
     border-radius: 1em;
 }
+
+
+@media screen and (max-width: 600px) {
+    .galleri {
+        flex-direction: column;
+        align-items: center; 
+    }
+
+    img#filmomslag {
+        position: static; 
+        width: 100%; 
+        margin-bottom: 20px; 
+    }
+
+    .biljettknapp,
+    .rubrik,
+    .underrubrik,
+    .handling,
+    #infobutton,
+    #hiddentext {
+        position: static; 
+        width: 100%; 
+        text-align: center; 
+    }
+}
 /*styling filmer slut*/ 
 
 /*styling biljetter*/ 
