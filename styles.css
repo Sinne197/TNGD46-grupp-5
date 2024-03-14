@@ -219,12 +219,11 @@ img#filmomslag {
     border-radius: 1em;
 }
 
-
+/*landningssidan anpassad för skärmad med max 600px*/
 @media screen and (max-width: 600px) {
     .galleri {
         flex-direction: column;
         align-items: center; 
-        padding: 10px;
     }
 
     img#filmomslag {
@@ -233,16 +232,26 @@ img#filmomslag {
         margin-bottom: 20px; 
     }
 
-    .biljettknapp,
+    .biljettknapp{
+        position: static; 
+        max-width: 50%;
+        align-items: center;
+    }
+
     .rubrik,
     .underrubrik,
-    .handling,
     #infobutton,
     #hiddentext {
         position: static; 
         width: 100%; 
-        justify-content: center;
+        text-align: center;
         left: 0;
+    }
+
+    .handling{
+        text-align: left;
+        margin-top: 10px;
+        max-width: 100%;
     }
 }
 /*styling filmer slut*/ 
