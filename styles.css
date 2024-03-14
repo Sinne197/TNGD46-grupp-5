@@ -360,6 +360,13 @@ th{
     margin: 2em; /*marginalen runt bilderna*/
 }
 
+/*anpassar bilderna för skärmar med max 600px*/
+@media screen and (max-width: 600px){
+    #woods,#door{
+        align-items: center;
+    }
+}
+
 /*styling av betyg-delen i recensionen*/
 .betyg-container{
     display: flex;
