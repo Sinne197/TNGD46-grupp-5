@@ -392,6 +392,7 @@ th{
 @media screen and (max-width: 600px){
     #woods,#door{
         justify-content: center;
+        margin: 3em;
     }
 }
 
