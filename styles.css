@@ -219,7 +219,7 @@ img#filmomslag {
     border-radius: 1em;
 }
 
-/*stylig pålandningssidan, anpassad för skärmad med max 600px*/
+/*stylig på landningssidan, anpassad för skärmad med max 600px*/
 @media screen and (max-width: 600px) {
     .galleri {
         flex-direction: column;
