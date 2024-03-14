@@ -4,7 +4,7 @@ body{
     margin: auto;
     background-color: #030301;
     color: white;
-    font-family: Futura PT, sans-serif;
+    font-family: "futura-pt", sans-serif;
 }
 
 
@@ -259,7 +259,7 @@ form{
 
 fieldset {
     font-size: 12pt;
-    font-family: Futura PT, sans-serif;
+    font-family: "futura-pt", sans-serif;
     border: 5px solid;
     border-color: #7bd4d2;
     width: 400px;
@@ -312,7 +312,7 @@ input:hover, select:hover {
 
 span{
     color:#B81414;
-    font-family: Futura PT, sans-serif;
+    font-family: "futura-pt", sans-serif;
     font-weight: 900;
     display: block;
     margin-top: 5px;
@@ -335,7 +335,7 @@ table{
 
 th, td{
     border: 1px solid #7bd4d2;
-    font-family: Futura PT, sans-serif;
+    font-family: "futura-pt", sans-serif;
     padding: 7px;
 }
 
